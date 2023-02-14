@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dreams</title>
+  </head>
+  <body>
+    <header class="header" id="inicio">
+      <img src="img/hamburguesa.svg" alt="" class="hamburger" />
+      <nav class="menu-navegacion">
+        <a href="#inicio">Home</a>
+        <a href="#servicio">Services</a>
+        <a href="#portafolio">Gallery</a>
+        <a href="#expertos">Experts</a>
+        <a href="#contacto">Contact</a>
+      </nav>
+      <div class="contenedor head">
+        <h1 class="titulo">We turn your dreams into reality</h1>
+        <p class="copy">Unlock your organization's full potential</p>
+      </div>
+    </header>
+    <main>
+      <section class="contenedor" id="servicio">
+        <h2 class="subtitulo">Our services</h2>
+        <div class="contenedor-servicio">
+          <img src="img/checklist.svg" alt="" />
+          <div class="checklist-servicio">
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number"> 1 </span> Industry Reinvention Studios
+              </h3>
+              <p>
+                From travel to retail, we leverage deep expertise to disrupt
+                industries and unlock explosive growth
+              </p>
+            </div>
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number"> 2 </span> Digital studios
+              </h3>
+              <p>
+                Blockchain, AI, Metaverse and more. Our digital studios develop
+                and deploy emerging tech to leave your competition in the past.
+              </p>
+            </div>
+            <div class="service">
+              <h3 class="n-service">
+                <span class="number"> 3 </span> Enterprise Platforms Studios
+              </h3>
+              <p>
+                Oracle, Salesforce, SAP and others. We streamline your major
+                platform operations, maximize productivity, and reduce costs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="portafolio">
+        <div class="contenedor">
+          <h2 class="subtitulo">Our people</h2>
+          <div class="contenedor-gallery">
+            <img src="img/office_1.jpg" alt="" class="img-galeria" />
+            <img src="img/office_2.jpg" alt="" class="img-galeria" />
+            <img src="img/office_3.jpg" alt="" class="img-galeria" />
+            <img src="img/office_4.jpg" alt="" class="img-galeria" />
+            <img src="img/office_5.jpg" alt="" class="img-galeria" />
+            <img src="img/office_6.jpg" alt="" class="img-galeria" />
+          </div>
+        </div>
+      </section>
+
+      <section class="imagen-light">
+        <img src="img/close.svg" alt="" class="close" />
+
+        <i class="bx bxs-chevron-left gallery-button" id="slide-left"></i>
+
+        <img src="" alt="" class="agregar-imagen" />
+
+        <i class="bx bxs-chevron-right gallery-button" id="slide-right"></i>
+      </section>
+
+      <section class="contenedor" id="expertos">
+        <h2 class="subtitulo">We are experts at:</h2>
+        <section class="experts">
+          <div class="cont-experts">
+            <img src="img/pie_chart.svg" alt="" />
+            <h3 class="n-expert">Analytics</h3>
+          </div>
+          <div class="cont-experts">
+            <img src="img/search_engine.svg" alt="" />
+            <h3 class="n-expert">SEO</h3>
+          </div>
+          <div class="cont-experts">
+            <img src="img/security.svg" alt="" />
+            <h3 class="n-expert">Security</h3>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer id="contacto">
+      <div class="contendor footer-content">
+        <div class="contact-us">
+          <h2 class="brand">Renzo Robles Design</h2>
+          <p>We are experts in creating your dreams</p>
+        </div>
+        <div class="social-media">
+          <a href="./" class="social-media-icon">
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a href="./" class="social-media-icon">
+            <i class="bx bxl-twitter"></i>
+          </a>
+          <a href="./" class="social-media-icon">
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="line"></div>
+    </footer>
+
+    <script src="js/elements.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/slide.js"></script>
+  </body>
+</html>
