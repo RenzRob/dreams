@@ -2,6 +2,10 @@ leftButton.addEventListener("click", slideToRight);
 
 rightButton.addEventListener("click", slideToLeft);
 
+upButton.addEventListener("click", slideToRight);
+
+downButton.addEventListener("click", slideToLeft);
+
 function slideToLeft() {
   for (const [i, img] of imagenes.entries()) {
     if (img.src === imagenesLight.src) {

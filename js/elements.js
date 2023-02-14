@@ -7,3 +7,5 @@ const menu = document.querySelector(".menu-navegacion");
 
 const leftButton = document.getElementById("slide-left");
 const rightButton = document.getElementById("slide-right");
+const upButton = document.getElementById("slide-up");
+const downButton = document.getElementById("slide-down");

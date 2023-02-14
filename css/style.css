@@ -212,6 +212,10 @@ body {
   cursor: pointer;
 }
 
+.hide {
+  display: none;
+}
+
 .experts {
   display: flex;
   justify-content: space-evenly;
@@ -302,7 +306,8 @@ footer {
 }
 
 .gallery-button {
-  font-size: 150px;
+  font-size: 100px;
+  max-height: 100px;
   color: rgba(255, 255, 255, 0.487);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -310,6 +315,10 @@ footer {
 
 .gallery-button:hover {
   transform: scale(1.2);
+}
+
+.slide-vertically {
+  display: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -335,7 +344,7 @@ footer {
   }
 
   .agregar-imagen {
-    width: 80%;
+    width: 70%;
   }
 
   .img-galeria {
@@ -402,5 +411,17 @@ footer {
 
   .contact-us {
     width: 90%;
+  }
+
+  .imagen-light {
+    flex-direction: column;
+  }
+
+  .slide-vertically {
+    display: contents;
+  }
+
+  .slide-horizontally {
+    display: none;
   }
 } ;
